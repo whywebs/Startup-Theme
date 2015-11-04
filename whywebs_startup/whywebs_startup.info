@@ -1,0 +1,69 @@
+
+name = Whywebs Startup by Mutasem Elayyoub
+description = Whywebs Startup by Mutasem Elayyoub<a href="http://whywebs.com">Whywebs.com</a>.
+package = Core
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/responsive.css
+stylesheets[print][] = css/print.min.css
+
+
+scripts[]= js/jquery.js
+scripts[]= js/jquery.min.js
+
+
+
+
+
+regions[addlblock] = Quick Links addl extra Block
+regions[socialblock] = Quick Links social Extra Block
+regions[extra_top_social] = Quicklinks Top Block Main social Block (No list tags included)
+regions[extra_top_links] = Quicklinks Top Block Main links Block (No list tags included)
+regions[search1] = Search Top
+regions[header_menu] = Header Menu
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[billboard] = Billboard
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_menu] = Sidebar Menu
+regions[sidebar_left] = Left Sidebar
+regions[gallary] = Gallery
+regions[banner2] = Carousel Region
+regions[banner3] = Pre Sales
+
+regions[triptych_first] = Features
+regions[triptych_middle] = Specs
+regions[triptych_last] = Library
+regions[lib_asset] = Library Asset
+
+regions[footer_firstcolumn] = Footer first column left
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column right
+regions[searchbtm] = Search btm
+regions[addressco] = Address
+regions[addlinks] = Address links
+regions[copyright] = copyright
+
+
+
+features[] = logo "red box"
+features[] = node_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+
+settings[toggle_logo] = 1
+settings[toggle_node_user_picture] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
