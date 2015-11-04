@@ -24,9 +24,6 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
 
-  <!--[if IE 9]>
-    <script src="/sites/all/themes/RuckusW/js/ie9.js"></script>
-  <![endif]-->
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?> >
   <div id="skip-link">
