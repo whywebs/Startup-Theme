@@ -1,12 +1,12 @@
 
-name = Whywebs Startup by Mutasem Elayyoub
+name = Whywebs Startup Theme by Mutasem Elayyoub
 description = Whywebs Startup by Mutasem Elayyoub<a href="http://whywebs.com">Whywebs.com</a>.
 package = Core
-version = 1.0
+version = 1.10
 core = 7.x
 engine = phptemplate
 
-
+stylesheets[all][] = css/media.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/responsive.css
 stylesheets[print][] = css/print.min.css

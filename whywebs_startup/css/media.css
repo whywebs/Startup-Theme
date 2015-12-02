@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 1152px) {
+
+  body{background: url(../images/background_whywebs.gif) fixed no-repeat; background-color: #E0E0E0; background-size: 100%; margin: 15px; z-index: -900;}
+
+header.siteheader{ height: 500px;}
+#logo{ display: none;}
+#main-menu ul { display:none; top: 5px; left: 0; }
+
+ 
+
+}
+
+@media screen and (max-width: 960px) {
+
+  body { background: url(../images/background_whywebs.gif) fixed no-repeat; background-color: #E0E0E0; background-size: 100%; line-height: 150%; font-size: 15px; }
+
+  header.siteheader{ 
+  box-shadow: none; background: none; height: 250px;}
+
+
+
+  .content-wrap{ padding: 10px; }
+  
+}
+
+@media screen and (max-width: 640px) {
+
+  body { line-height: 150%; font-size: 14px; }
+  #logo{ display: none;}
+  header.siteheader{ 
+    box-shadow: none; padding: 10px 0; height: 100px; background: none;}
+
+  h1#site-title a { font-size: 28px; margin: 8px 0; }
+
+
